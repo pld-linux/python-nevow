@@ -1,4 +1,3 @@
-%include	/usr/lib/rpm/macros.python
 %define		module	nevow
 Summary:	Web application templating system
 Summary(pl):	System szablonów do tworzenia stron www
