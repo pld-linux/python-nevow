@@ -1,14 +1,15 @@
 %define		module	nevow
+%define		version_in_filename	0.3
 Summary:	Web application templating system
 Summary(pl):	System szablonów do tworzenia stron www
 Name:		python-%{module}
-Version:	0.2.0
+Version:	0.3.0
 Release:	1
 Epoch:		1
 License:	LGPL
 Group:		Libraries/Python
-Source0:	http://www.divmod.org/users/release/divmod/Nevow-%{version}.tar.gz
-# Source0-md5:	2d770c994793ba216b3f867d61a18120
+Source0:	http://nevow.com/releases/%{version}/%{module}-%{version_in_filename}.tar.gz
+# Source0-md5:	c203da567b3c201dc1bc3ad14de1c2a6
 URL:		http://nevow.com/
 BuildRequires:	python-devel >= 2.3
 %pyrequires_eq	python-modules
@@ -98,7 +99,7 @@ This package contains example programs for Python nevow module.
 Pakiet zawieraj±cy programy przyk³adowe dla modu³u Pythona nevow.
 
 %prep
-%setup -q -n %{module}-%{version}
+%setup -q -n %{module}-%{version_in_filename}
 
 %build
 python setup.py build_ext
@@ -113,6 +114,9 @@ python setup.py install \
 	--optimize=2
 
 find $RPM_BUILD_ROOT%{py_sitescriptdir} -name \*.py -exec rm {} \;
+
+mv $RPM_BUILD_ROOT%{py_sitescriptdir}/Nevow/* $RPM_BUILD_ROOT%{py_sitescriptdir}/
+rm -rf $RPM_BUILD_ROOT%{py_sitescriptdir}/Nevow*
 
 cp -ar examples/* $RPM_BUILD_ROOT%{_examplesdir}/%{name}-%{version}
 
