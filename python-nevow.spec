@@ -1,7 +1,7 @@
 %define		module	nevow
 %define		version_in_filename	0.3
 Summary:	Web application templating system
-Summary(pl):	System szablonów do tworzenia stron www
+Summary(pl):	System szablonów do tworzenia stron WWW
 Name:		python-%{module}
 Version:	0.3.0
 Release:	1
@@ -32,7 +32,7 @@ web solution:
 - XHTML templates: contain no programming logic, only nodes tagged
   with nevow attributes,
 - data/render methods: simplified MVC,
-- stan: An s-expression-like syntax for expressing xml in pure python,
+- stan: An s-expression-like syntax for expressing xml in pure Python,
 - formless: For describing the types of objects which may be passed to
   methods of your classes, validating and coercing string input from
   either web or command-line sources, and calling your methods
@@ -45,7 +45,7 @@ web solution:
   page has loaded, without causing the entire page to refresh.
 
 %description -l pl
-Nevow jest systemem szblonów wspomagaj±cym tworzenie aplikacji
+Nevow jest systemem szablonów wspomagaj±cym tworzenie aplikacji
 webowych, bazuj±cym na pomys³ach zawartych w rozwijanym w ramach
 projektu Twisted pakiecie Woven. G³ównym zadaniem Nevow jest
 umo¿liwienie deweloperowi odseparowanie kodu szablonu HTML od logiki
@@ -59,11 +59,11 @@ ca³o¶ciwe rozwi±zanie wspomagaj±ce tworzenie aplikacji webowych:
   wierzcho³ki tagowane atrybutami przestrzeni nazw nevow,
 - funkcje zarz±dzania danymi i wy¶wietlaniem: uproszczenie wzorca
   projektowego Model-Widok-Kontroler (MVC),
-- stan: sk³adnia wyra¿ania elementów jêzyka XML w czystym pythonie w
+- stan: sk³adnia wyra¿ania elementów jêzyka XML w czystym Pythonie w
   oparciu o s-wyra¿enia,
 - formless: opisywanie typów obiektów mog±cych byæ argumentami
   tworzonych metod klas, weryfikacji i poprawiania znakowych danych
-  wej¶ciowych od klientów www lub innych ¼róde³ oraz automatyczne
+  wej¶ciowych od klientów WWW lub innych ¼róde³ oraz automatyczne
   wywo³ywanie w³asnych metod po poprawnej weryfikacji,
 - freeform: renderowanie formularzy HTML oparte o opisy typów
   formless, akceptacja formularzy dostarczonych przez klienta, analiza
