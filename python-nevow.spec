@@ -3,9 +3,9 @@
 Summary:	Web application templating system
 Summary(pl):	System szablonów do tworzenia stron www
 Name:		python-%{module}
-Epoch:		1
 Version:	0.2.0
 Release:	1
+Epoch:		1
 License:	LGPL
 Group:		Libraries/Python
 Source0:	http://www.divmod.org/users/release/divmod/Nevow-%{version}.tar.gz
@@ -78,7 +78,7 @@ ca³o¶ciwe rozwi±zanie wspomagaj±ce tworzenie aplikacji webowych:
 Summary:	Documentation files for Python nevow module
 Summary(pl):	Dokumentacja do modu³u Pythona nevow
 Group:		Libraries/Python
-Requires:	%{name} = %{version}-%{release}
+Requires:	%{name} = %{epoch}:%{version}-%{release}
 
 %description doc
 This package contains documentation files for nevow module.
@@ -90,7 +90,7 @@ Pakiet zawieraj±cy dokumentacjê do modu³u Pythona nevow.
 Summary:	Example programs for Python nevow module
 Summary(pl):	Programy przyk³adowe do modu³u Pythona nevow
 Group:		Development/Languages/Python
-Requires:	%{name} = %{version}-%{release}
+Requires:	%{name} = %{epoch}:%{version}-%{release}
 
 %description examples
 This package contains example programs for Python nevow module.
