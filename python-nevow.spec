@@ -4,12 +4,12 @@ Summary:	Web application templating system
 Summary(pl):	System szablonów do tworzenia stron www
 Name:		python-%{module}
 Epoch:		1
-Version:	0.1
+Version:	0.2.0
 Release:	1
 License:	LGPL
 Group:		Libraries/Python
-Source0:	http://nevow.com/%{module}-%{version}.tar.gz
-# Source0-md5:	e1a5a44cff26cae03eae417417f89af2
+Source0:	http://www.divmod.org/users/release/divmod/Nevow-%{version}.tar.gz
+# Source0-md5:	2d770c994793ba216b3f867d61a18120
 URL:		http://nevow.com/
 BuildRequires:	python-devel >= 2.3
 %pyrequires_eq	python-modules
@@ -123,7 +123,7 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %{py_sitescriptdir}/nevow
-%{_datadir}/nevow
+%{py_sitescriptdir}/formless
 
 %files doc
 %defattr(644,root,root,755)
