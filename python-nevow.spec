@@ -44,15 +44,15 @@ web solution:
   page has loaded, without causing the entire page to refresh.
 
 %description -l pl
-Nevow jest systemem szablonów wspomagaj±cym tworzenie aplikacji
-webowych, bazuj±cym na pomys³ach zawartych w rozwijanym w ramach
-projektu Twisted pakiecie Woven. G³ównym zadaniem Nevow jest
-umo¿liwienie deweloperowi odseparowanie kodu szablonu HTML od logiki
-biznesowej i logiki prezentacyjnej tworzonego systemu. Nevow rozdziela
-kod na funkcje zarz±dzania danymi oraz ich wy¶wietlania, co jest
-uproszczon± wersj± wzroca projektowego MVC. Na Nevow sk³ada siê zbiór
-ró¿nych funkcjonalno¶ci, które mog± byæ u¿ywane osobno albo jako
-ca³o¶ciwe rozwi±zanie wspomagaj±ce tworzenie aplikacji webowych:
+Nevow jest systemem szablonów wspomagaj±cym tworzenie aplikacji WWW,
+bazuj±cym na pomys³ach zawartych w rozwijanym w ramach projektu
+Twisted pakiecie Woven. G³ównym zadaniem Nevow jest umo¿liwienie
+deweloperowi odseparowanie kodu szablonu HTML od logiki biznesowej i
+logiki prezentacyjnej tworzonego systemu. Nevow rozdziela kod na
+funkcje zarz±dzania danymi oraz ich wy¶wietlania, co jest uproszczon±
+wersj± wzroca projektowego MVC. Na Nevow sk³ada siê zbiór ró¿nych
+funkcjonalno¶ci, które mog± byæ u¿ywane osobno albo jako ca³o¶ciwe
+rozwi±zanie wspomagaj±ce tworzenie aplikacji WWW:
 
 - szablony XHTML: nie zawieraj± logiki programistycznej, jedynie
   wierzcho³ki tagowane atrybutami przestrzeni nazw nevow,
