@@ -1,5 +1,5 @@
 %include	/usr/lib/rpm/macros.python
-%define		module nevow
+%define		module	nevow
 Summary:	Web application templating system
 Summary(pl):	System szablonów do tworzenia stron www
 Name:		python-%{module}
@@ -50,7 +50,7 @@ webowych, bazuj±cym na pomys³ach zawartych w rozwijanym w ramach
 projektu Twisted pakiecie Woven. G³ównym zadaniem Nevow jest
 umo¿liwienie deweloperowi odseparowanie kodu szablonu HTML od logiki
 biznesowej i logiki prezentacyjnej tworzonego systemu. Nevow rozdziela
-Twój kod na funkcje zarz±dzania danymi oraz ich wy¶wietlania, co jest
+kod na funkcje zarz±dzania danymi oraz ich wy¶wietlania, co jest
 uproszczon± wersj± wzroca projektowego MVC. Na Nevow sk³ada siê zbiór
 ró¿nych funkcjonalno¶ci, które mog± byæ u¿ywane osobno albo jako
 ca³o¶ciwe rozwi±zanie wspomagaj±ce tworzenie aplikacji webowych:
@@ -59,12 +59,12 @@ ca³o¶ciwe rozwi±zanie wspomagaj±ce tworzenie aplikacji webowych:
   wierzcho³ki tagowane atrybutami przestrzeni nazw nevow,
 - funkcje zarz±dzania danymi i wy¶wietlaniem: uproszczenie wzorca
   projektowego Model-Widok-Kontroler (MVC),
-- stan: sk³adnia wyra¿ania elementów jêzyka xml w czystym pythonie w
+- stan: sk³adnia wyra¿ania elementów jêzyka XML w czystym pythonie w
   oparciu o s-wyra¿enia,
 - formless: opisywanie typów obiektów mog±cych byæ argumentami
-  tworzonych przez Ciebie metod klas, weryfikacji i poprawiania
-  znakowych danych wej¶ciowych od klientów www lub innych ¼róde³ oraz
-  automatyczne wywo³ywanie Twoich metod po poprawnej weryfikacji,
+  tworzonych metod klas, weryfikacji i poprawiania znakowych danych
+  wej¶ciowych od klientów www lub innych ¼róde³ oraz automatyczne
+  wywo³ywanie w³asnych metod po poprawnej weryfikacji,
 - freeform: renderowanie formularzy HTML oparte o opisy typów
   formless, akceptacja formularzy dostarczonych przez klienta, analiza
   ich zawarto¶ci w oparciu o mechanizm weryfikatorów formless oraz
