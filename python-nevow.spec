@@ -28,7 +28,6 @@ as much as possible. It separates your code into 'data' and 'render'
 functions, a simplified implementation of traditional MVC. It has
 various parts which can be used individually or as a whole, integrated
 web solution:
-
 - XHTML templates: contain no programming logic, only nodes tagged
   with nevow attributes,
 - data/render methods: simplified MVC,
@@ -109,7 +108,7 @@ rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT{%{py_sitescriptdir},%{_examplesdir}/%{name}-%{version},%{_datadir}/%{name}}
 
 python setup.py install \
-        --root=$RPM_BUILD_ROOT \
+	--root=$RPM_BUILD_ROOT \
 	--install-lib=%{py_sitescriptdir} \
 	--optimize=2
 
