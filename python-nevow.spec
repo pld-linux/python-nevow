@@ -4,7 +4,7 @@ Summary:	Web application templating system
 Summary(pl):	System szablonów do tworzenia stron WWW
 Name:		python-%{module}
 Version:	0.3.0
-Release:	1
+Release:	2
 Epoch:		1
 License:	LGPL
 Group:		Libraries/Python
