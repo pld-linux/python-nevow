@@ -11,7 +11,7 @@ Group:		Libraries/Python
 Source0:	http://nevow.com/releases/%{version}/%{module}-%{version_in_filename}.tar.gz
 # Source0-md5:	c203da567b3c201dc1bc3ad14de1c2a6
 URL:		http://nevow.com/
-BuildRequires:	python-devel >= 2.3
+BuildRequires:	python-devel >= 1:2.3
 %pyrequires_eq	python-modules
 Requires:	python >= 2.3
 Requires:	python-Twisted >= 1.3.0
