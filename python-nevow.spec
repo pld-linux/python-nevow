@@ -1,6 +1,6 @@
 %define		module	nevow
 Summary:	Web application templating system
-Summary(pl):	System szablonÛw do tworzenia stron WWW
+Summary(pl.UTF-8):   System szablon√≥w do tworzenia stron WWW
 Name:		python-%{module}
 Version:	0.4.1
 Release:	1
@@ -42,59 +42,59 @@ web solution:
   events to the server and server side events to the client after the
   page has loaded, without causing the entire page to refresh.
 
-%description -l pl
-Nevow jest systemem szablonÛw wspomagaj±cym tworzenie aplikacji WWW,
-bazuj±cym na pomys≥ach zawartych w rozwijanym w ramach projektu
-Twisted pakiecie Woven. G≥Ûwnym zadaniem Nevow jest umoøliwienie
+%description -l pl.UTF-8
+Nevow jest systemem szablon√≥w wspomagajƒÖcym tworzenie aplikacji WWW,
+bazujƒÖcym na pomys≈Çach zawartych w rozwijanym w ramach projektu
+Twisted pakiecie Woven. G≈Ç√≥wnym zadaniem Nevow jest umo≈ºliwienie
 deweloperowi odseparowanie kodu szablonu HTML od logiki biznesowej i
 logiki prezentacyjnej tworzonego systemu. Nevow rozdziela kod na
-funkcje zarz±dzania danymi oraz ich wy∂wietlania, co jest uproszczon±
-wersj± wzroca projektowego MVC. Na Nevow sk≥ada siÍ zbiÛr rÛønych
-funkcjonalno∂ci, ktÛre mog± byÊ uøywane osobno albo jako ca≥o∂ciwe
-rozwi±zanie wspomagaj±ce tworzenie aplikacji WWW:
+funkcje zarzƒÖdzania danymi oraz ich wy≈õwietlania, co jest uproszczonƒÖ
+wersjƒÖ wzroca projektowego MVC. Na Nevow sk≈Çada siƒô zbi√≥r r√≥≈ºnych
+funkcjonalno≈õci, kt√≥re mogƒÖ byƒá u≈ºywane osobno albo jako ca≈Ço≈õciwe
+rozwiƒÖzanie wspomagajƒÖce tworzenie aplikacji WWW:
 
-- szablony XHTML: nie zawieraj± logiki programistycznej, jedynie
-  wierzcho≥ki tagowane atrybutami przestrzeni nazw nevow,
-- funkcje zarz±dzania danymi i wy∂wietlaniem: uproszczenie wzorca
+- szablony XHTML: nie zawierajƒÖ logiki programistycznej, jedynie
+  wierzcho≈Çki tagowane atrybutami przestrzeni nazw nevow,
+- funkcje zarzƒÖdzania danymi i wy≈õwietlaniem: uproszczenie wzorca
   projektowego Model-Widok-Kontroler (MVC),
-- stan: sk≥adnia wyraøania elementÛw jÍzyka XML w czystym Pythonie w
-  oparciu o s-wyraøenia,
-- formless: opisywanie typÛw obiektÛw mog±cych byÊ argumentami
+- stan: sk≈Çadnia wyra≈ºania element√≥w jƒôzyka XML w czystym Pythonie w
+  oparciu o s-wyra≈ºenia,
+- formless: opisywanie typ√≥w obiekt√≥w mogƒÖcych byƒá argumentami
   tworzonych metod klas, weryfikacji i poprawiania znakowych danych
-  wej∂ciowych od klientÛw WWW lub innych ºrÛde≥ oraz automatyczne
-  wywo≥ywanie w≥asnych metod po poprawnej weryfikacji,
-- freeform: renderowanie formularzy HTML oparte o opisy typÛw
+  wej≈õciowych od klient√≥w WWW lub innych ≈∫r√≥de≈Ç oraz automatyczne
+  wywo≈Çywanie w≈Çasnych metod po poprawnej weryfikacji,
+- freeform: renderowanie formularzy HTML oparte o opisy typ√≥w
   formless, akceptacja formularzy dostarczonych przez klienta, analiza
-  ich zawarto∂ci w oparciu o mechanizm weryfikatorÛw formless oraz
-  tworzenie komunikatÛw o b≥Ídach podczas nieudanej weryfikacji
+  ich zawarto≈õci w oparciu o mechanizm weryfikator√≥w formless oraz
+  tworzenie komunikat√≥w o b≈Çƒôdach podczas nieudanej weryfikacji
   formularza,
-- livepage: miÍdzyplatformowy "klej" JavaScript umoøliwiaj±cy
-  przesy≥anie efektÛw ubocznych pracy klienta do serwera i odwrotnie po
-  za≥adowaniu strony bez konieczno∂ci jej od∂wieøania.
+- livepage: miƒôdzyplatformowy "klej" JavaScript umo≈ºliwiajƒÖcy
+  przesy≈Çanie efekt√≥w ubocznych pracy klienta do serwera i odwrotnie po
+  za≈Çadowaniu strony bez konieczno≈õci jej od≈õwie≈ºania.
 
 %package doc
 Summary:	Documentation files for Python nevow module
-Summary(pl):	Dokumentacja do modu≥u Pythona nevow
+Summary(pl.UTF-8):   Dokumentacja do modu≈Çu Pythona nevow
 Group:		Libraries/Python
 Requires:	%{name} = %{epoch}:%{version}-%{release}
 
 %description doc
 This package contains documentation files for nevow module.
 
-%description doc -l pl
-Pakiet zawieraj±cy dokumentacjÍ do modu≥u Pythona nevow.
+%description doc -l pl.UTF-8
+Pakiet zawierajƒÖcy dokumentacjƒô do modu≈Çu Pythona nevow.
 
 %package examples
 Summary:	Example programs for Python nevow module
-Summary(pl):	Programy przyk≥adowe do modu≥u Pythona nevow
+Summary(pl.UTF-8):   Programy przyk≈Çadowe do modu≈Çu Pythona nevow
 Group:		Development/Languages/Python
 Requires:	%{name} = %{epoch}:%{version}-%{release}
 
 %description examples
 This package contains example programs for Python nevow module.
 
-%description examples -l pl
-Pakiet zawieraj±cy programy przyk≥adowe dla modu≥u Pythona nevow.
+%description examples -l pl.UTF-8
+Pakiet zawierajƒÖcy programy przyk≈Çadowe dla modu≈Çu Pythona nevow.
 
 %prep
 %setup -q -n %{module}-%{version}
