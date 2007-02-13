@@ -1,6 +1,6 @@
 %define		module	nevow
 Summary:	Web application templating system
-Summary(pl.UTF-8):   System szablonów do tworzenia stron WWW
+Summary(pl.UTF-8):	System szablonów do tworzenia stron WWW
 Name:		python-%{module}
 Version:	0.4.1
 Release:	1
@@ -74,7 +74,7 @@ rozwiązanie wspomagające tworzenie aplikacji WWW:
 
 %package doc
 Summary:	Documentation files for Python nevow module
-Summary(pl.UTF-8):   Dokumentacja do modułu Pythona nevow
+Summary(pl.UTF-8):	Dokumentacja do modułu Pythona nevow
 Group:		Libraries/Python
 Requires:	%{name} = %{epoch}:%{version}-%{release}
 
@@ -86,7 +86,7 @@ Pakiet zawierający dokumentację do modułu Pythona nevow.
 
 %package examples
 Summary:	Example programs for Python nevow module
-Summary(pl.UTF-8):   Programy przykładowe do modułu Pythona nevow
+Summary(pl.UTF-8):	Programy przykładowe do modułu Pythona nevow
 Group:		Development/Languages/Python
 Requires:	%{name} = %{epoch}:%{version}-%{release}
 
