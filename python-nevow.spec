@@ -10,6 +10,7 @@ Group:		Libraries/Python
 Source0:	http://nevow.com/releases/%{version}/%{module}-%{version}.tar.gz
 # Source0-md5:	a7402e4571a23b99c59ce4e7d354f7ff
 URL:		http://nevow.com/
+BuildRequires:	rpmbuild(macros) >= 1.710
 BuildRequires:	python-devel >= 1:2.3
 %pyrequires_eq	python-modules
 Requires:	python >= 2.3
